@@ -30,11 +30,16 @@ ig_data/
 pixabay_data/
 örnekler/
 
-# Image Files (except examples dir if needed, but let's keep it clean)
+# Image Files (except examples dir)
 *.png
 *.jpg
 *.jpeg
 *.webp
+
+!examples/*.jpg
+!examples/*.png
+!examples/*.webp
+!examples/*.jpeg
 
 # Project specific
 ig_data/
