@@ -1,55 +1,55 @@
 # NeuralCanvas AI 🎨
 
-NeuralCanvas, hem **Stable Diffusion** tabanlı üretken yapay zekayı hem de gelişmiş geometrik algoritmaları bir araya getiren, Python ile geliştirilmiş kapsamlı bir soyut sanat üretim platformudur.
+NeuralCanvas is a comprehensive abstract art generation platform developed with Python, combining both **Stable Diffusion**-based generative AI and advanced geometric algorithms.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- **Hibrit Üretim Modu:** İster Stable Diffusion v1.5 kullanarak yüksek kaliteli AI görselleri üretin, ister klasik geometrik algoritmalarla tamamen matematiksel soyut kompozisyonlar oluşturun.
-- **Model Eğitimi (Fine-Tuning):** Kendi veri setlerinizi kullanarak Stable Diffusion modellerini eğitebilir ve kişiselleştirilmiş sanat tarzları oluşturabilirsiniz.
-- **Görsel Analiz (BLIP):** Referans görsellerden otomatik açıklama (caption) ve renk paleti çıkarımı.
-- **Canlı Önizleme:** Üretim aşamasını gerçek zamanlı olarak takip edebileceğiniz interaktif Dashboard.
-- **Geri Bildirim Sistemi:** Üretilen görselleri değerlendirerek sistemin evrimine katkıda bulunma.
-- **Çoklu Format Desteği:** PNG, JPG ve WEBP formatlarında çıktı alabilme.
+- **Hybrid Generation Mode:** Produce high-quality AI images using Stable Diffusion v1.5 or create purely mathematical abstract compositions with classic geometric algorithms.
+- **Model Training (Fine-Tuning):** Train Stable Diffusion models using your own datasets to create personalized art styles.
+- **Image Analysis (BLIP):** Automatic prompt (caption) generation and color palette extraction from reference images.
+- **Live Preview:** An interactive Dashboard where you can follow the production stage in real-time.
+- **Feedback System:** Contribute to the evolution of the system by rating the generated images.
+- **Multi-Format Support:** Export in PNG, JPG, and WEBP formats.
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-1. Depoyu klonlayın:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/KULLANICI_ADI/NeuralCanvas.git
+   git clone https://github.com/redghost-dev/NeuralCanvas.git
    cd NeuralCanvas
    ```
 
-2. Sanal ortam oluşturun ve aktif edin:
+2. Create and activate a virtual environment:
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # Windows için: .venv\Scripts\activate
+   source .venv/bin/activate  # For Windows: .venv\Scripts\activate
    ```
 
-3. Gerekli kütüphaneleri yükleyin:
+3. Install the required libraries:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. `config.py` dosyasına Pixabay API anahtarınızı ekleyin.
+4. Add your Pixabay API key to the `config.py` file.
 
-## 💻 Kullanım
+## 💻 Usage
 
-Uygulamayı başlatmak için:
+To start the application:
 ```bash
 python abstract_art_generator.py
 ```
 
-## 📂 Proje Yapısı
+## 📂 Project Structure
 
-- `abstract_art_generator.py`: Ana Dashboard ve kullanıcı arayüzü.
-- `image_generator.py`: AI ve geometrik üretim motoru.
-- `models/`: Eğitilmiş AI modellerinin saklandığı dizin.
-- `config.py`: API anahtarları ve global ayarlar.
-- `examples/`: Referans olarak kullanılan örnek görseller.
+- `abstract_art_generator.py`: Main Dashboard and user interface.
+- `image_generator.py`: AI and geometric generation engine.
+- `models/`: Directory where trained AI models are stored.
+- `config.py`: API keys and global settings.
+- `examples/`: Reference images used as examples.
 
-## ⚖️ Lisans
+## ⚖️ License
 
-Bu proje MIT lisansı ile lisanslanmıştır.
+This project is licensed under the MIT License.
 
 ---
-*Geleceğin sanatını algoritmalarla keşfedin.*
+*Explore the art of the future with algorithms.*
