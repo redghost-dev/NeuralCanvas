@@ -41,6 +41,10 @@ pixabay_data/
 !examples/*.webp
 !examples/*.jpeg
 
+# Assets & Samples
+!assets/*.png
+!assets/*.jpg
+
 # Project specific
 ig_data/
 pixabay_data/
