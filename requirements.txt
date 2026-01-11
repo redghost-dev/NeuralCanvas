@@ -3,6 +3,7 @@ numpy
 torch
 diffusers
 transformers
+accelerate
 instaloader
 tk
 requests
