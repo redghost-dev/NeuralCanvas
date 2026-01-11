@@ -1,0 +1,9 @@
+pillow
+numpy
+torch
+diffusers
+transformers
+instaloader
+tk
+requests
+pixabay-python
