@@ -1,0 +1,43 @@
+# IDEs
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# Models (Extremely large files)
+models/
+**/model_index.json
+**/*.safetensors
+**/*.bin
+**/vae/
+**/unet/
+**/text_encoder/
+**/safety_checker/
+**/scheduler/
+**/tokenizer/
+**/feature_extractor/
+
+# Data & Personal Logs
+çıktılar/
+feedback_logs/
+ig_data/
+pixabay_data/
+örnekler/
+
+# Image Files (except examples dir if needed, but let's keep it clean)
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Project specific
+ig_data/
+pixabay_data/
+feedback_logs/
+çıktılar/
